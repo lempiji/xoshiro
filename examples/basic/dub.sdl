@@ -1,0 +1,6 @@
+name "basic"
+description "A minimal D application."
+authors "lempiji"
+license "MIT"
+
+dependency "xoshiro" path="../.."

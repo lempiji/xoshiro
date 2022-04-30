@@ -1,0 +1,15 @@
+.dub
+docs.json
+__dummy.html
+docs/
+/xoshiro
+xoshiro.so
+xoshiro.dylib
+xoshiro.dll
+xoshiro.a
+xoshiro.lib
+xoshiro-test-*
+*.exe
+*.o
+*.obj
+*.lst
