@@ -77,8 +77,22 @@ public:
     }
 
     ///
-    typeof(this) save() const @safe pure nothrow @nogc @property
+    typeof(this) save() const @safe pure nothrow @nogc
     {
+        return this;
+    }
+
+    /// jump() -> save()
+    typeof(this) saveAfterJump() @safe pure nothrow @nogc
+    {
+        jump();
+        return this;
+    }
+
+    /// longJump() -> save()
+    typeof(this) saveAfterLongJump() @safe pure nothrow @nogc
+    {
+        longJump();
         return this;
     }
 
